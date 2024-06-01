@@ -1,11 +1,18 @@
-import Link from "next/link";
+import Head from "next/head";
+import { AboutMe } from "@/components/Home/AboutMe";
 
 const Home = () => {
   return (
-    <main>
-      <h1>Hello World com Next!</h1>
-      <Link href="/contatos">Ir para a página contatos</Link>
-    </main>
+    <>
+    <Head>
+      <title>Sobre mim | Hipólito</title>
+      <meta name="description" content="Sou um desenvolvedor full-stack apaixonado por conhecimento"/>
+    </Head>
+    <div>
+      <AboutMe />
+    </div>
+    </>
+
   );
 }
 

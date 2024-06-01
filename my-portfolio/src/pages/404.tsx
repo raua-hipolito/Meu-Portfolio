@@ -1,17 +1,24 @@
+import Head from "next/head";
 import Link from "next/link";
 
 const NotFound = () => {
   return (
-    <div>
-      <h1>404 - Page Not Found</h1>
+    <>
+    <Head>
+      <title>404 - Página não encontrada</title>
+    </Head>
       <div>
-        <p>Opa! Não conseguimos encontrar essa página!</p>
-        <span>
+         <h1>404 - Page Not Found</h1>
+        <div>
+         <p>Opa! Não conseguimos encontrar essa página!</p>
+          <span>
             Clique no botão abaixo para voltar para a página inicial.
-        </span>
+          </span>
+        </div>
+          <Link href="./">Ir para a página inicial</Link>
       </div>
-      <Link href="./">Ir para a página inicial</Link>
-    </div>
+    </>
+
   );
 }
 
