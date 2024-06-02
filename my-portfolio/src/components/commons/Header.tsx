@@ -9,11 +9,11 @@ const roboto = Roboto({
 
 export const Header = () => {
     return(
-        <header className={roboto.className}>
+        <header className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
         <Link href="/">
             <Image src="/favicon.ico" width={55} height={55} alt="icone da letra H" />
         </Link>
-        <nav>
+        <nav className="hidden md:flex items-center gap-10 text-md">
             <Link href="/">Sobre mim</Link>
             {/* <Link href="/portfolio">Portfolio</Link> */}
             <Link href="/contatos">Entre em contatos</Link>

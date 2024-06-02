@@ -8,7 +8,7 @@ const Home = () => {
       <title>Sobre mim | Hipólito</title>
       <meta name="description" content="Sou um desenvolvedor full-stack apaixonado por conhecimento"/>
     </Head>
-    <div>
+    <div className="py-12 px-6 md:px-32 space-y-10 md:space-y-28">
       <AboutMe />
     </div>
     </>
