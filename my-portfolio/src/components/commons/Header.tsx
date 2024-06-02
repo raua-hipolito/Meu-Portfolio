@@ -1,10 +1,17 @@
+import Image from "next/image"
 import Link from "next/link"
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+    subsets: ["latin"],
+    weight: '500',
+});
 
 export const Header = () => {
     return(
-        <header>
+        <header className={roboto.className}>
         <Link href="/">
-            <img src="/favicon.ico" alt="icone da letra H" />
+            <Image src="/favicon.ico" width={55} height={55} alt="icone da letra H" />
         </Link>
         <nav>
             <Link href="/">Sobre mim</Link>
