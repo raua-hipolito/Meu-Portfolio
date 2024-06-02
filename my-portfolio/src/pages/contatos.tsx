@@ -6,31 +6,34 @@ const Contatos = () => {
         <Head>
             <title>Contatos | Hipólito</title>
         </Head>
-        <div>
-            <h1>Contatos</h1>
-            <ul>
-                <li>
-                    <span>E-mail</span>
-                  <div>
-                    <a href="mailto:rauavasconcelos22@gmail.com">Rauã-rauavasconcelos22@gmail.com</a>
+        <div className="mt-12 md:mt-24 space-y-8 md:space-y-16 px-6 md:px-32">
+            <h1 className="text-5xl md:text-7xl font-bold text-center">Contatos</h1>
+            <ul className="table mx-auto space-y-6 md:space-y-8">
+                <li className="md:text-xl">
+                    <span className="font-bold">E-mail</span>
+                  <div className="flex gap-1 md:gap-3 items-center">
+                    <a href="mailto:rauavasconcelos22@gmail.com" className="text-sm  md:text-lg  text-slate-300 underline truencate">Rauã-rauavasconcelos22@gmail.com</a>
                   </div>
                 </li>
-                <li>
-                    <span>Linkedin</span>
-                  <div>
-                    <a href="https://www.linkedin.com/in/devrauahipolito/">https://www.linkedin.com/in/devrauahipolito/</a>
+               <li className="md:text-xl">
+                   <span className="font-bold">Linkedin</span>
+                  <div className="flex gap-1 md:gap-3 items-center">
+                    <a href="https://www.linkedin.com/in/devrauahipolito/"
+                    className="text-sm  md:text-lg text-slate-300 underline truencate">https://www.linkedin. com/in/devrauahipolito/</a>
                   </div>
                 </li>
-                <li>
-                    <span>GitHub</span>
-                  <div>
-                    <a href="https://github.com/raua-hipolito">https://github.com/raua-hipolito</a>
+               <li className="md:text-xl">
+                   <span className="font-bold">GitHub</span>
+                  <div className="flex gap-1 md:gap-3 items-center">
+                    <a href="https://github.com/raua-hipolito"
+                    className="text-sm  md:text-lg text-slate-300 underline truencate">https://github.com/raua-hipolito </a>
                   </div>
                 </li>
-                <li>
-                    <span>Instagram</span>
-                  <div>
-                    <a href="https://www.instagram.com/__rhipolito/">https://www.instagram.com/__rhipolito/</a>
+               <li className="md:text-xl">
+                   <span className="font-bold">Instagram</span>
+                  <div className="flex gap-1 md:gap-3 items-center">
+                    <a href="https://www.instagram.com/__rhipolito/"
+                    className="text-sm  md:text-lg text-slate-300 underline truencate">https://www.instagram.com/ __rhipolito/</a>
                   </div>
                 </li>
             </ul>
