@@ -1,3 +1,4 @@
+import { CopyButton } from "@/components/commons/CopyButton";
 import Head from "next/head";
 
 const Contatos = () => {
@@ -13,6 +14,7 @@ const Contatos = () => {
                     <span className="font-bold">E-mail</span>
                   <div className="flex gap-1 md:gap-3 items-center">
                     <a href="mailto:rauavasconcelos22@gmail.com" className="text-sm  md:text-lg  text-slate-300 underline truencate">Rauã-rauavasconcelos22@gmail.com</a>
+                    <CopyButton textToCopy="rauavasconcelos22@gmail.com" />
                   </div>
                 </li>
                <li className="md:text-xl">
