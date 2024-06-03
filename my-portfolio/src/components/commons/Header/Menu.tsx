@@ -32,7 +32,7 @@ export const Menu = ({isVisible, onClose}: MenuProps) => {
                 {/* <Link href="/portfolio">Portfolio</Link> */}
                 <Link href="/contatos"
                 onClick={onClose}
-                >Entre em contatos</Link>         
+                >Entre em contato</Link>         
             </nav>
 
             </div>      
