@@ -2,13 +2,14 @@ import Head from "next/head";
 import { AboutMe } from "@/components/Home/AboutMe";
 import { Projects } from "@/components/Home/Projects";    
 
+
 const Home = () => {
   const projects = [
     {
       slug: 'project-1',
       name: 'Projeto 1',
       image: {
-        url: 'https://i.imgur.com/7WjvXt1.png',
+        url: 'https://i.imgur.com/jM9fyal.png',
         alt: 'Imagem do projeto 1',
       },
     },
