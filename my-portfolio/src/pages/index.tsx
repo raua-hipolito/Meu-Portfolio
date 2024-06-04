@@ -6,36 +6,36 @@ import { Projects } from "@/components/Home/Projects";
 const Home = () => {
   const projects = [
     {
-      slug: 'project-1',
       name: 'Projeto 1',
       image: {
         url: 'https://i.imgur.com/jM9fyal.png',
         alt: 'Imagem do projeto 1',
       },
+      projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
     {
-      slug: 'project-2',
       name: 'Projeto 2',
       image: {
         url: 'https://i.imgur.com/7WjvXt1.png',
         alt: 'Imagem do projeto 2',
       },
+      projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
     {
-      slug: 'project-3',
       name: 'Projeto 3',
       image: {
         url: 'https://i.imgur.com/7WjvXt1.png',
         alt: 'Imagem do projeto 3',
       },
+      projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
     {
-      slug: 'project-4',
       name: 'Projeto 4',
       image: {
         url: 'https://i.imgur.com/7WjvXt1.png',
         alt: 'Imagem do projeto 4',
       },
+      projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
   ]
 

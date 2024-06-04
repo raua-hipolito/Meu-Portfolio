@@ -13,14 +13,15 @@ export const Projects = ({projects}: ProjectsProps) => {
               className="text-2xl md:text-4xl"
               >Projetos Recentes</h2>
               <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
-                {projects.map(({slug,name,image}, index) => (
-                    <Link href={`/projects/${slug}`} key={ name + index}>
+                {projects.map(({name,image, projectsLink}, index) => (
+                    <Link href={`${projectsLink}`} target='_blank' key={ name + index}>
                     <li className=" text-md relative">
                       <Image 
                       src={image.url}
                       alt={image.alt}
                       width={300}
                       height={300}
+
                       className=" object-cover rounded-2xl h-[18.75rem] mb-4"
                       />
                       <span>{name}</span>
