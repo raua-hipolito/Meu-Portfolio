@@ -36,6 +36,12 @@ export const AboutMe = () => {
                 <li style={{ backgroundColor: '#000000', color: '#FFFFFF' }} className="w-fit p-2 rounded-md">
                     NextJS
                 </li>
+                <li style={{ backgroundColor: '#334155', color: '#FFFFFF' }} className="w-fit p-2 rounded-md">
+                    GitHub
+                </li>               
+                 <li style={{ backgroundColor: '#ea580c', color: '#000000' }} className="w-fit p-2 rounded-md">
+                    HTML5
+                </li>
             </ul>
 
         </div>   
