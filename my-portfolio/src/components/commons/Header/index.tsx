@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Roboto } from "next/font/google";
 import { Menu } from "./Menu";
 import { useCallback } from "react";
-import { MenuIcon } from "@/components/icons/MenuIcon";
+import { MenuIcon } from "@/components/icons/MenuIcon"
 import { useState } from "react";
 
 const roboto = Roboto({
@@ -32,7 +32,7 @@ export const Header = () => {
         </button>
         <nav className="hidden md:flex items-center gap-10 text-md">
             <Link href="/">Sobre mim</Link>
-            {/* <Link href="/portfolio">Portfolio</Link> */}
+            <Link href="/minhaHistoria">Minha história</Link>
             <Link href="/contatos">Entre em contato</Link>
         </nav>
         <Menu isVisible={isMenuOpen} onClose={closeMenu}/>

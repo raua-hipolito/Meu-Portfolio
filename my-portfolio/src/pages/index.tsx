@@ -16,7 +16,7 @@ const Home = () => {
     {
       name: 'Projeto 2',
       image: {
-        url: 'https://i.imgur.com/7WjvXt1.png',
+        url: 'https://i.imgur.com/cJW378B.png',
         alt: 'Imagem do projeto 2',
       },
       projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
