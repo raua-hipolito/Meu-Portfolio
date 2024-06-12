@@ -42,6 +42,12 @@ export const AboutMe = () => {
                  <li style={{ backgroundColor: '#ea580c', color: '#000000' }} className="w-fit p-2 rounded-md">
                     HTML5
                 </li>
+                <li style={{ backgroundColor: '#0ea5e9', color: 'white' }} className="w-fit p-2 rounded-md">
+                    CSS
+                </li>
+                <li style={{ backgroundColor: '#facc15', color: '#1d4ed8' }} className="w-fit p-2 rounded-md">
+                    Python
+                </li>
             </ul>
 
         </div>   
