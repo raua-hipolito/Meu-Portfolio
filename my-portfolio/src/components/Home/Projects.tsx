@@ -11,7 +11,8 @@ export const Projects = ({projects}: ProjectsProps) => {
          <article className=" space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
               <h2
               className="text-2xl md:text-4xl"
-              >Projetos Recentes</h2>
+              >Projetos Concluídos</h2>
+              <p className="text-1xl md:text-3xl">Fique á vontade pra clicar e ser redirecionado(a)😃👇</p>
               <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
                 {projects.map(({name,image, projectsLink}, index) => (
                     <Link href={`${projectsLink}`} target='_blank' key={ name + index}>

@@ -6,10 +6,10 @@ import { Projects } from "@/components/Home/Projects";
 const Home = () => {
   const projects = [
     {
-      name: 'Projeto 1',
+      name: 'Calculadora Freelancer',
       image: {
-        url: 'https://i.imgur.com/jM9fyal.png',
-        alt: 'Imagem do projeto 1',
+        url: 'https://i.imgur.com/88vqYkJ.png',
+        alt: 'Calculadora freelancer',
       },
       projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
