@@ -19,7 +19,7 @@ export const Menu = ({isVisible, onClose}: MenuProps) => {
             >
                 <div className="flex justify-between mb-5">
                 <Link href="/">
-                    <Image src="/favicon.ico" width={55} height={55} alt="icone da letra H" />
+                    <Image src="/dev.png" width={55} height={55} alt="icone da letra H" />
                 </Link>
                 <button onClick={onClose}>
                     <MenuCloseIcon className="fill-white w-10 h-10"/>

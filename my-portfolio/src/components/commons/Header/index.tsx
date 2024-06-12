@@ -25,7 +25,7 @@ export const Header = () => {
     return(
         <header className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
         <Link href="/">
-            <Image src="/favicon.ico" width={55} height={55} alt="icone da letra H" />
+            <Image src="/dev.png" width={55} height={55} alt="icone da letra H" />
         </Link>
         <button className="p-1 md:hidden" onClick={openMenu}>
             <MenuIcon className="fill-white w-10 h-10" />
