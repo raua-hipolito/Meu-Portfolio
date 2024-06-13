@@ -1,4 +1,5 @@
 import { CopyButton } from "@/components/commons/CopyButton";
+import Footer from "@/components/commons/Footer/Footer.";
 import Head from "next/head";
 
 const Contatos = () => {
@@ -39,7 +40,7 @@ const Contatos = () => {
                   </div>
                 </li>
             </ul>
-        </div> 
+        </div>
         </>
  
     );

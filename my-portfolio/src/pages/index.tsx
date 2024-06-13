@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { AboutMe } from "@/components/Home/AboutMe";
 import { Projects } from "@/components/Home/Projects";    
+import Footer from "@/components/commons/Footer/Footer.";
 
 
 const Home = () => {
@@ -49,8 +50,8 @@ const Home = () => {
       <AboutMe />
       <Projects projects={projects}/>
     </div>
+      <Footer />
     </>
-
   );
 }
 
