@@ -15,12 +15,12 @@ const Home = () => {
       projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
     },
     {
-      name: 'Projeto 2',
+      name: 'Solar-System',
       image: {
-        url: 'https://i.imgur.com/cJW378B.png',
+        url: 'https://i.imgur.com/15Uo4IP.jpeg',
         alt: 'Imagem do projeto 2',
       },
-      projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
+      projectsLink: 'https://solar-system-137eb2.netlify.app/'
     },
     {
       name: 'Projeto 3',
