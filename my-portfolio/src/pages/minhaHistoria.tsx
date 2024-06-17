@@ -1,6 +1,7 @@
 import Footer from "@/components/commons/Footer/Footer.";
 import Head from "next/head";
 import Image from "next/image";
+import Video from "@/components/meuVideo/Video";
 
 function minhaHistoria() {
     return (
@@ -8,6 +9,7 @@ function minhaHistoria() {
         <Head>
             <title>Minha história | Hipólito</title>
         </Head>
+        <Video />
       <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[450px]">
         <Image
           src="/certificado.png" // Substitua pelo caminho da sua imagem
@@ -37,7 +39,7 @@ function minhaHistoria() {
       <h2 className="text-2xl font-bold mb-4 px-5 py-4">
         Sou formado em Desenvolvimento Full-Stack ,um curso onde pude aprender tecnológias esseciais pro mercado de trabalho.
       </h2>
-        <Footer /> 
+      <Footer /> 
     </div>
     )
 }
