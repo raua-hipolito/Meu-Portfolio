@@ -29,9 +29,16 @@ export const Menu = ({isVisible, onClose}: MenuProps) => {
                 <Link href="/"
                 onClick={onClose}
                 >Sobre mim</Link>
+
                 <Link href="/minhaHistoria"
                 onClick={onClose}
                 >Minha história</Link>
+
+                <Link
+                href="/Certificacoes"
+                onClick={onClose}
+                >Certificações</Link>
+
                 <Link href="/contatos"
                 onClick={onClose}
                 >Entre em contato</Link>         

@@ -1,7 +1,6 @@
 import { ReactNode } from "react"
 import { JetBrains_Mono } from "next/font/google";
 import { Header } from "./Header";
-import Footer from "./Footer/Footer.";
 
 interface LayoutProps {
     children: ReactNode;

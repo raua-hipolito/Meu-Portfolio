@@ -32,6 +32,7 @@ export const Header = () => {
         </button>
         <nav className="hidden md:flex items-center gap-10 text-md">
             <Link href="/">Sobre mim</Link>
+            <Link href="/Certificacoes">Minhas certificações</Link>
             <Link href="/minhaHistoria">Minha história</Link>
             <Link href="/contatos">Entre em contato</Link>
         </nav>
