@@ -1,6 +1,5 @@
 import Footer from "@/components/commons/Footer/Footer.";
 import Head from "next/head";
-import Image from "next/image";
 import Video from "@/components/meuVideo/Video";
 
 function minhaHistoria() {
@@ -10,35 +9,12 @@ function minhaHistoria() {
             <title>Minha história | Hipólito</title>
         </Head>
         <Video />
-      <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[450px]">
-        <Image
-          src="/certificado.png" // Substitua pelo caminho da sua imagem
-          //centraliza a imagem
-          layout="fill"
-          alt="Descrição da imagem"
-          objectFit="contain" // Ajuste para 'contain' se quiser que a imagem seja totalmente visível
-          //arredonda a imagem
-          className="rounded-lg shadow-lg"
-        />
-      </div>
-      <h2 className="text-2xl font-bold mb-4 px-5 py-4">
-        Sou formado em Desenvolvimento Full-Stack ,um curso onde pude aprender tecnológias esseciais pro mercado de trabalho.
-      </h2>
-
-      <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[450px]">
-        <Image
-          src="/certificado.png" // Substitua pelo caminho da sua imagem
-          //centraliza a imagem
-          layout="fill"
-          alt="Descrição da imagem"
-          objectFit="contain" // Ajuste para 'contain' se quiser que a imagem seja totalmente visível
-          //arredonda a imagem
-          className="rounded-lg shadow-lg"
-        />
-      </div>
-      <h2 className="text-2xl font-bold mb-4 px-5 py-4">
-        Sou formado em Desenvolvimento Full-Stack ,um curso onde pude aprender tecnológias esseciais pro mercado de trabalho.
-      </h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam doloremque quaerat quo laudantium voluptas nisi nam non libero ipsum voluptates alias, maxime vitae cupiditate exercitationem. Fugiat voluptates tempore vero molestias.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veniam reprehenderit voluptatibus ipsam cupiditate consequuntur tempora et saepe adipisci ut? Iure reiciendis labore ipsam dolor expedita ullam non quibusdam tempore?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi vitae, sint exercitationem dolor aliquid expedita voluptas repellat voluptatum quidem cumque nulla, ipsum dolorum amet provident animi culpa sit omnis corporis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis? Sunt quas beatae deleniti at aspernatur reiciendis cumque quod pariatur fugiat necessitatibus cum, nam sapiente, fugit, modi ab vero porro?
+        </p>
       <Footer /> 
     </div>
     )
