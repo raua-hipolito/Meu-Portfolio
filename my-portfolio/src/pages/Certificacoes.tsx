@@ -10,7 +10,7 @@ function MinhasCertificacoes() {
             </Head>
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[450px]">
             <Image
-              src="/certificado.png" // Substitua pelo caminho da sua imagem
+              src="/certificados/certificado.png" // Substitua pelo caminho da sua imagem
               //centraliza a imagem
               layout="fill"
               alt="Descrição da imagem"
