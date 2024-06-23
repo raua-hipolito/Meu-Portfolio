@@ -36,6 +36,7 @@ function minhaHistoria() {
             />
           </div>
           <p className="font-mono text-justify text-2xl tracking-tight md:tracking-normal md:text-3xl lg:text-4xl">
+            <br />
           Sou apaixonado por tecnologia, buscando constantemente aprender e crescer profissionalmente. Estou aberto a novas oportunidades e colaborações que me permitam contribuir com minha experiência e habilidades. Vamos conectar e explorar possíveis sinergias! 🚀
           </p>
       <Footer /> 
