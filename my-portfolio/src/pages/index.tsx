@@ -22,14 +22,14 @@ const Home = () => {
       },
       projectsLink: 'https://solar-system-137eb2.netlify.app/'
     },
-    // {
-    //   name: 'Projeto 3',
-    //   image: {
-    //     url: 'https://i.imgur.com/7WjvXt1.png',
-    //     alt: 'Imagem do projeto 3',
-    //   },
-    //   projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
-    // },
+    {
+      name: 'Guardiões Kids',
+      image: {
+        url: 'https://i.imgur.com/XapMjuC.png',
+        alt: 'Loja Guardiões Kids',
+      },
+      projectsLink: 'https://guardioes-kids.vercel.app/'
+    },
     // {
     //   name: 'Projeto 4',
     //   image: {
