@@ -23,7 +23,7 @@ export const Header = () => {
     }, []);
 
     return(
-        <header className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
+        <header className={`${roboto.className} bg-[#1e3a8a] text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
         <Link href="/">
             <Image src="/dev.png" width={55} height={55} alt="icone da letra H" />
         </Link>
