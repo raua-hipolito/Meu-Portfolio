@@ -9,7 +9,7 @@ const Home = () => {
     {
       name: 'Calculadora Freelancer',
       image: {
-        url: 'https://i.imgur.com/88vqYkJ.png',
+        url: 'https://imgur.com/88vqYkJ.png',
         alt: 'Calculadora freelancer',
       },
       projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
@@ -17,7 +17,7 @@ const Home = () => {
     {
       name: 'Solar-System',
       image: {
-        url: 'https://i.imgur.com/15Uo4IP.jpeg',
+        url: 'https://imgur.com/15Uo4IP.jpeg',
         alt: 'Imagem do projeto 2',
       },
       projectsLink: 'https://solar-system-137eb2.netlify.app/'
@@ -25,19 +25,19 @@ const Home = () => {
     {
       name: 'Guardiões Kids',
       image: {
-        url: 'https://i.imgur.com/XapMjuC.png',
+        url: 'https://imgur.com/XapMjuC.png',
         alt: 'Loja Guardiões Kids',
       },
       projectsLink: 'https://guardioes-kids.vercel.app/'
     },
-    // {
-    //   name: 'Projeto 4',
-    //   image: {
-    //     url: 'https://i.imgur.com/7WjvXt1.png',
-    //     alt: 'Imagem do projeto 4',
-    //   },
-    //   projectsLink: 'https://calculadora-freelancer-raua.netlify.app/'
-    // },
+    {
+      name: 'DevLinks',
+      image: {
+        url: 'https://imgur.com/gmIFnOi.png',
+        alt: 'Projeto DevLinks',
+      },
+      projectsLink: 'https://raua-hipolito.github.io/project-devlinks/'
+    },
   ]
 
   return (
