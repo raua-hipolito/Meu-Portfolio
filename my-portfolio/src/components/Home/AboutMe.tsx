@@ -60,7 +60,7 @@ export const AboutMe = () => {
             className="rounded-full"
            />
             <p className="p-4 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[1.25rem] sm:bottom-3">
-                <span className="text-2xl">1+</span>
+                <span className="text-2xl">+2</span>
                 <br />
                 anos de experiência
             </p>
